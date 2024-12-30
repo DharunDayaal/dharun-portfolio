@@ -5,43 +5,48 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="nav navbar-expand-lg">
-        <div className="container-fluid p-4">
-          <div
-            className="collapse navbar-collapse pe-5 ps-5 mt-2 mb-1"
-            id="navbarSupportedContent"
-          >
-            <div className="navbar-brand">
-              <Link
-                to=""
-                className="link-style d-flex justify-content-center gap-4"
-              >
-                <div className="brand-icon mt-1"></div>
-                <span>Dharun Dayaal</span>
-              </Link>
+      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div className="container py-2">
+          <Link className="navbar-brand" to="">
+            <div className="d-flex align-items-center gap-3">
+              <div className="brand-icon"></div>{" "}
+              <div className="fw-bolder">Dharun Dayaal</div>
             </div>
-            <div className="navbar-nav ms-auto d-flex justify-content-center gap-5">
-              <div className="nav-item">
-                <Link to="resume" className="link-style">
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto gap-4 justify-content-center">
+              <li className="nav-item">
+                <Link className="nav-link link-style" to="resume">
                   Resume
                 </Link>
-              </div>
+              </li>
               <div className="gap-line"></div>
-              <div className="nav-item">
-                <Link to="projects" className="link-style">
+              <li className="nav-item">
+                <Link className="nav-link link-style" to="projects">
                   Projects
                 </Link>
-              </div>
+              </li>
               <div className="gap-line"></div>
-              <div className="nav-item">
-                <Link to="contact" className="link-style">
+              <li className="nav-item">
+                <Link className="nav-link link-style" to="contact">
                   Contact
                 </Link>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

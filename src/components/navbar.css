@@ -4,6 +4,7 @@
   margin-top: 2px;
   transform: rotate(-180deg);
   background-color: #000;
+  margin-top: 6px;
 }
 
 .brand-icon {
@@ -29,4 +30,17 @@
   font-family: "Poppins" ,sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+@media screen and (max-width: 990px) {
+  .brand-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .gap-line {
+    display: none;
+  }
+  .nav-link {
+    text-align: center;
+  }
 }
