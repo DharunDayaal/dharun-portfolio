@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import ResumePage from "./pages/ResumePage"
 import ProjectPage from "./pages/ProjectPage"
-import ContactPage from "./pages/Contactpage"
+import ContactPage from "./pages/ContactPage"
 
 function App() {
 
