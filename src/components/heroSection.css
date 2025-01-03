@@ -1,7 +1,22 @@
 .btn {
-    width: 150px;
-    height: 30%;
-    padding: 3rem;
-    border-radius: 100%;
-    font-family: "Poppins", sans-serif;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set the same height as width */
+    border-radius: 50%; /* Makes the button a circle */
+    padding: 0; /* Removes any padding that might affect the circle */
+  }
+  
+  .btn-hover:hover {
+    background-color: #fff !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center !important;
+  }
+  

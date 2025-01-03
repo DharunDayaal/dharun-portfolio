@@ -63,19 +63,19 @@ const HeroSection = () => {
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
               <button
-                className="btn btn-warning"
+                className="btn btn-warning text-dark border-dark btn-hover"
                 onClick={handleResumeBtn}
               >
                 Resume
               </button>
               <button
-                className="btn btn-danger"
+                className="btn btn-danger text-dark border-dark btn-hover"
                 onClick={handleProjectsBtn}
               >
                 Projects
               </button>
               <button
-                className="btn btn-info text-white"
+                className="btn btn-info text-dark border-dark btn-hover"
                 onClick={handleContactBtn}
               >
                 Contact
