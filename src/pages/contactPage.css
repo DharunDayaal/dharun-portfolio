@@ -1,0 +1,41 @@
+.contact-div {
+    padding: 90px 380px;
+    margin: 110px 0;
+}
+
+.contact-style h2 {
+  font-size: 42px;
+  font-weight: 780;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.86px;
+}
+
+.contact-style h5 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "sans-serif";
+}
+
+.contact-style p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-div {
+        padding: 90px 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-div {
+        padding: 90px 200px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px ) {
+    .contact-div {
+        padding: 50px 10px;
+    }
+}

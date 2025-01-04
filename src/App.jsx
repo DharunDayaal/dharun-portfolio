@@ -234,16 +234,16 @@ export default App
 //       </section>
 
 //       {/* Footer */}
-//       <footer className="bg-dark text-light py-3">
-//         <div className="container text-center">
-//           <p className="mb-1">&copy; 2024 John Doe. All Rights Reserved.</p>
-//           <div className="d-flex justify-content-center gap-3">
-//             <a href="#" className="text-light">LinkedIn</a>
-//             <a href="#" className="text-light">GitHub</a>
-//             <a href="#" className="text-light">Email</a>
-//           </div>
-//         </div>
-//       </footer>
+      // <footer className="bg-dark text-light py-3">
+      //   <div className="container text-center">
+      //     <p className="mb-1">&copy; 2024 John Doe. All Rights Reserved.</p>
+      //     <div className="d-flex justify-content-center gap-3">
+      //       <a href="#" className="text-light">LinkedIn</a>
+      //       <a href="#" className="text-light">GitHub</a>
+      //       <a href="#" className="text-light">Email</a>
+      //     </div>
+      //   </div>
+      // </footer>
 //     </div>
 //   );
 // };
