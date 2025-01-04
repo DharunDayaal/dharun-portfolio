@@ -56,23 +56,23 @@ export default App
   //   { name: 'C', level: 70, color: 'bg-success' }
   // ];
 
-//   const projects = [
-//     {
-//       title: 'Enterprise E-Commerce Platform',
-//       description: 'Scalable full-stack e-commerce solution with microservices architecture',
-//       technologies: ['React', 'Node.js', 'Docker', 'Kubernetes']
-//     },
-//     {
-//       title: 'Advanced Game Development',
-//       description: 'Multiplayer game with real-time networking and complex game mechanics',
-//       technologies: ['Unity', 'C#', 'Networking', 'Cloud Integration']
-//     },
-//     {
-//       title: 'AI-Powered Dashboard',
-//       description: 'Intelligent analytics platform with predictive modeling',
-//       technologies: ['React', 'Machine Learning', 'Python', 'Data Visualization']
-//     }
-//   ];
+  // const projects = [
+  //   {
+  //     title: 'Enterprise E-Commerce Platform',
+  //     description: 'Scalable full-stack e-commerce solution with microservices architecture',
+  //     technologies: ['React', 'Node.js', 'Docker', 'Kubernetes']
+  //   },
+  //   {
+  //     title: 'Advanced Game Development',
+  //     description: 'Multiplayer game with real-time networking and complex game mechanics',
+  //     technologies: ['Unity', 'C#', 'Networking', 'Cloud Integration']
+  //   },
+  //   {
+  //     title: 'AI-Powered Dashboard',
+  //     description: 'Intelligent analytics platform with predictive modeling',
+  //     technologies: ['React', 'Machine Learning', 'Python', 'Data Visualization']
+  //   }
+  // ];
 
 //   return (
 //     <div className="bg-light">
@@ -171,34 +171,34 @@ export default App
       // </section>
 
 //       {/* Projects Section */}
-//       <section id="projects" className="py-5">
-//         <div className="container">
-//           <h2 className="text-center fw-bold mb-4">Notable Projects</h2>
-//           <div className="row">
-//             {projects.map(project => (
-//               <div key={project.title} className="col-md-4 mb-4">
-//                 <div className="card shadow-sm h-100">
-//                   <div className="card-body">
-//                     <h5 className="card-title fw-bold">{project.title}</h5>
-//                     <p className="card-text">{project.description}</p>
-//                     <div className="d-flex flex-wrap gap-1 mb-3">
-//                       {project.technologies.map(tech => (
-//                         <span 
-//                           key={tech} 
-//                           className="badge bg-primary text-light"
-//                         >
-//                           {tech}
-//                         </span>
-//                       ))}
-//                     </div>
-//                     <a href="#" className="btn btn-primary">View Project</a>
-//                   </div>
-//                 </div>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
+      // <section id="projects" className="py-5">
+      //   <div className="container">
+      //     <h2 className="text-center fw-bold mb-4">Notable Projects</h2>
+      //     <div className="row">
+      //       {projects.map(project => (
+      //         <div key={project.title} className="col-md-4 mb-4">
+      //           <div className="card shadow-sm h-100">
+      //             <div className="card-body">
+      //               <h5 className="card-title fw-bold">{project.title}</h5>
+      //               <p className="card-text">{project.description}</p>
+                    // <div className="d-flex flex-wrap gap-1 mb-3">
+                    //   {project.technologies.map(tech => (
+                    //     <span 
+                    //       key={tech} 
+                    //       className="badge bg-primary text-light"
+                    //     >
+                    //       {tech}
+                    //     </span>
+                    //   ))}
+                    // </div>
+      //               <a href="#" className="btn btn-primary">View Project</a>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       ))}
+      //     </div>
+      //   </div>
+      // </section>
 
 //       {/* Contact Section */}
 //       <section id="contact" className="py-5 bg-light">

@@ -1,0 +1,7 @@
+.project-image img {
+    transition: transform 0.3s ease;
+  }
+  
+  .project-image:hover img {
+    transform: scale(1.1);
+  }
