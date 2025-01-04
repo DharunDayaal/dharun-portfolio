@@ -1,7 +1,7 @@
 import React from "react";
 import project01 from "../assets/project01.png";
 import project02 from "../assets/project02.png"
-import "./projectPage.css";
+import "./projectpage.css";
 
 const ProjectPage = () => {
   const projects = [
