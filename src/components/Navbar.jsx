@@ -26,11 +26,11 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto gap-4 justify-content-center">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link link-style" to="/resume">
                   Resume
                 </Link>
-              </li>
+              </li> */}
               <div className="gap-line"></div>
               <li className="nav-item">
                 <Link className="nav-link link-style" to="/projects">
