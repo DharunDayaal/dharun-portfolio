@@ -31,7 +31,7 @@ const Navbar = () => {
                   Resume
                 </Link>
               </li> */}
-              <div className="gap-line"></div>
+              {/* <div className="gap-line"></div> */}
               <li className="nav-item">
                 <Link className="nav-link link-style" to="/projects">
                   Projects
